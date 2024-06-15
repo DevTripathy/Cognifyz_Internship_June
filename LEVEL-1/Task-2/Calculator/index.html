@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h2>simple addition calculator</h2>
+        <form id="form">
+            <div class="input-container">
+                <input type="number" id="num1" autocomplete="off" placeholder="Enter 1st No." class="inputs">
+                <i id="plus-icon">+</i>
+                <input type="number" id="num2" autocomplete="off" placeholder="Enter 2nd No." class="inputs">
+            </div>
+
+            <div class="btn-container">
+                <button type="submit" id="calculate-btn" class="button">Calculate</button>
+                <button type="reset" id="reset-btn" class="button">Reset</button>
+            </div>
+
+            
+        </form>
+        <p id="result"></p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
